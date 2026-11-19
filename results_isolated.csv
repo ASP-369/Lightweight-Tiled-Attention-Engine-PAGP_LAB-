@@ -1,0 +1,13 @@
+variant,seq_len,tile_size,batch,heads,head_dim,latency_ms,peak_memory_mb,max_abs_error,status
+naive,16384,64,1,4,64,803.480078125,8280.125,0.0,ok
+tiled,16384,64,1,4,64,90.28392944335937,80.0,6.109476089477539e-07,ok
+naive,24576,64,1,4,64,nan,nan,nan,oom
+tiled,24576,64,1,4,64,202.87191162109374,120.0,nan,ok
+naive,32768,64,1,4,64,nan,nan,nan,oom
+tiled,32768,64,1,4,64,359.286962890625,160.0,nan,ok
+naive,40960,64,1,4,64,nan,nan,nan,oom
+tiled,40960,64,1,4,64,560.6564453125,200.0,nan,ok
+naive,49152,64,1,4,64,nan,nan,nan,oom
+tiled,49152,64,1,4,64,818.23232421875,240.0,nan,ok
+naive,65536,64,1,4,64,nan,nan,nan,oom
+tiled,65536,64,1,4,64,1460.1935546875,320.0,nan,ok

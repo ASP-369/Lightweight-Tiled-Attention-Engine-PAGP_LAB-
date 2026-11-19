@@ -1,0 +1,5 @@
+variant,seq_len,tile_size,batch,heads,head_dim,latency_ms,peak_memory_mb,max_abs_error,status
+tiled,65536,64,1,4,64,1480.99404296875,320.0,nan,ok
+tiled,98304,64,1,4,64,3366.388671875,480.0,nan,ok
+tiled,131072,64,1,4,64,6084.469921875,640.0,nan,ok
+tiled,196608,64,1,4,64,13827.46875,960.0,nan,ok
